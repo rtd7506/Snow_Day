@@ -28,7 +28,8 @@ if !place_meeting(x,y+yVel,[obj_wall,obj_cover]){
 }
 
 //Attacking
-if distance_to_object(obj_player) < detectRange && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,0,0){
+
+if collision_ellipse(x-detectRangeH,y-detectRangeV,x+detectRangeH,y+detectRangeV,obj_player,0,0) && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,0,0){//distance_to_object(obj_player) < detectRange
 	attacking = true
 }else{
 	if collision_line(x,y,obj_player.x,obj_player.y,obj_wall,0,0) || distance_to_object(obj_player) > forgetRange{

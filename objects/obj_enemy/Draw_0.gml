@@ -69,6 +69,11 @@ if fallen{
 	sprite_index = animsFall
 	image_index = 3
 }
+if invincible{
+	image_blend=c_grey
+}else{
+	image_blend=c_white
+}
 /*
 if xVel < 0{
 	moveDir = -1

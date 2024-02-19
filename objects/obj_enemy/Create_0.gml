@@ -28,7 +28,8 @@ falling = false
 fallen = false
 
 //Attacking
-detectRange = 40
+detectRangeH = 45
+detectRangeV = 35
 forgetRange = 60
 aimAngle = point_direction(x,y,obj_player.x,obj_player.y)
 throwDir = 0
@@ -57,7 +58,7 @@ function Fall(_fallX,_fallY){
 }
 
 //Anims
-legsSprite = spr_playerLegsIdle
+legsSprite = spr_enemyLegsIdle
 animsIdle = [spr_enemyIdleS,spr_enemyIdleF,spr_enemyIdleS,spr_enemyIdleB]
 animsRun = [spr_enemyRunS,spr_enemyRunF,spr_enemyRunS,spr_enemyRunB]
 animsHold = [spr_enemyHoldS,spr_enemyHoldF,spr_enemyHoldS,spr_enemyHoldB]

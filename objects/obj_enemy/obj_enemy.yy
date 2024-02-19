@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_npc",
-    "path": "sprites/spr_npc/spr_npc.yy",
+    "name": "spr_enemyIdleS",
+    "path": "sprites/spr_enemyIdleS/spr_enemyIdleS.yy",
   },
   "spriteMaskId": null,
   "visible": true,
